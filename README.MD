@@ -1,4 +1,5 @@
 как использовать?
+Принимает время и сколько запросов в этот промежуток
 
 ```
 limiter := antiDdos.NewIPRateLimiter(20*time.Second, 1)
